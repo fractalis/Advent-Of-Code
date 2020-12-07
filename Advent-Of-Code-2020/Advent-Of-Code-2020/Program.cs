@@ -10,6 +10,7 @@ namespace Advent_Of_Code_2020
             var runner = new Runner();
             runner.ListSolutions();
             
+            runner.RunSolutionByName("Password Philosophy");
         }
     }
 }

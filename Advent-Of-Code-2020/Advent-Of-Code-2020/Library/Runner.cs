@@ -27,7 +27,7 @@ namespace Advent_Of_Code_2020.Library
 
         public void RunSolutionByName(string name)
         {
-            if(_solutions.Keys.Select(x => x.Item1 == name).First())
+            if(_solutions.Keys.Select(x => x.Item1).Contains(name))
             {
                 ISolution solution = (ISolution)_solutions[_solutions.Keys.Where(x => x.Item1 == name).First()];
                 AdventCalendarAttribute calendarAttribute = (AdventCalendarAttribute)solution.GetType().GetCustomAttributes(typeof(AdventCalendarAttribute), true).First();
