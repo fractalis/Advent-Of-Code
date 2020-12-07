@@ -8,9 +8,13 @@ namespace Advent_Of_Code_2020
         static void Main(string[] args)
         {
             var runner = new Runner();
+            Console.WriteLine("List of Solutions");
+            Console.WriteLine("-----------------");
             runner.ListSolutions();
-            
+            Console.WriteLine("-----------------");        
+            runner.RunSolutionByName("Report Repair");
             runner.RunSolutionByName("Password Philosophy");
+            runner.RunSolutionByName("Toboggan Trajectory");
         }
     }
 }

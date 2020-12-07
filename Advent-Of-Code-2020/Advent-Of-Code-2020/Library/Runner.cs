@@ -20,7 +20,7 @@ namespace Advent_Of_Code_2020.Library
 
         public void ListSolutions()
         {
-            foreach(var key in _solutions.Keys) {
+            foreach(var key in _solutions.Keys.OrderBy(key => key.Item2)) {
                 Console.WriteLine($"Advent Calendar Name: {key.Item1} - Advent Calendar Day: {key.Item2}");
             }
         }
