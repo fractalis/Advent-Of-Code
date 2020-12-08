@@ -15,6 +15,7 @@ namespace Advent_Of_Code_2020
             runner.RunSolutionByName("Report Repair");
             runner.RunSolutionByName("Password Philosophy");
             runner.RunSolutionByName("Toboggan Trajectory");
+            runner.RunSolutionByName("Passport Processing");
         }
     }
 }

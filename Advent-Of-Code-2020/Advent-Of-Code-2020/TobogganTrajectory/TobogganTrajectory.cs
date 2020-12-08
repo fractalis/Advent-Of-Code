@@ -43,12 +43,11 @@ namespace Advent_Of_Code_2020.TobogganTrajectory
                 int trees = 0;
                 while (crow < irows)
                 {
-                    if(input[crow][ccol] == '#')
+                    if(input[crow][ccol % icols] == '#')
                     {
                         trees += 1;
                     }
                     (crow, ccol) = (crow + drow, ccol + dcol);
-                    if(ccol >= icols) { ccol = ccol - icols; }
                 }
                 muliple *= trees;
             }
