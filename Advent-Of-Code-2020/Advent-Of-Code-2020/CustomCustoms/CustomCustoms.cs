@@ -33,8 +33,7 @@ namespace Advent_Of_Code_2020.CustomCustoms
                            .Split("\n\n").Select(str => str
                                                 .Split("\n", StringSplitOptions.RemoveEmptyEntries)
                                                 .Aggregate((str1, str2) => String.Concat(str1.Intersect(str2))).Length).Sum();
-            Console.WriteLine(sum);
-            return 0;
+            return sum;
         }
     }
 }

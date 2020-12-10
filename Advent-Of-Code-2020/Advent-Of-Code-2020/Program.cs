@@ -18,6 +18,7 @@ namespace Advent_Of_Code_2020
             runner.RunSolutionByName("Passport Processing");
             runner.RunSolutionByName("Binary Boarding");
             runner.RunSolutionByName("Custom Customs");
+            runner.RunSolutionByName("Handy Haversacks");
         }
     }
 }
