@@ -20,6 +20,7 @@ namespace Advent_Of_Code_2020
             runner.RunSolutionByName("Custom Customs");
             runner.RunSolutionByName("Handy Haversacks");
             runner.RunSolutionByName("Handheld Halting");
+            runner.RunSolutionByName("Encoding Error");
         }
     }
 }
