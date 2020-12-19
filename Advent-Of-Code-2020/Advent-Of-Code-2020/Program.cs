@@ -23,6 +23,9 @@ namespace Advent_Of_Code_2020
             runner.RunSolutionByName("Encoding Error");
             runner.RunSolutionByName("Adapter Array");
             runner.RunSolutionByName("Seating System");
+            runner.RunSolutionByName("Rain Risk");
+            runner.RunSolutionByName("Shuttle Search");
+            runner.RunSolutionByName("Docking Data");
         }
     }
 }
