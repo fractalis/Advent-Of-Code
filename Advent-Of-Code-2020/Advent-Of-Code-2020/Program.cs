@@ -28,6 +28,7 @@ namespace Advent_Of_Code_2020
             runner.RunSolutionByName("Docking Data");
             runner.RunSolutionByName("Rambunctious Recitation");
             runner.RunSolutionByName("Ticket Translation");
+            runner.RunSolutionByName("Conway Cubes");
         }
     }
 }
