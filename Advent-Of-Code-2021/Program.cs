@@ -13,6 +13,7 @@ namespace Advent_Of_Code_2021
             runner.ListSolutions();
             Console.WriteLine("-----------------");
             runner.RunSolutionByName("Sonar Sweep");
+            runner.RunSolutionByName("Dive");
         }
     }
 }
