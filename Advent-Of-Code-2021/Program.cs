@@ -14,6 +14,7 @@ namespace Advent_Of_Code_2021
             Console.WriteLine("-----------------");
             runner.RunSolutionByName("Sonar Sweep");
             runner.RunSolutionByName("Dive");
+            runner.RunSolutionByName("Binary Diagnostic");
         }
     }
 }
