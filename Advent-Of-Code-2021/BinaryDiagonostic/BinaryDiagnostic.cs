@@ -12,6 +12,7 @@ namespace Advent_Of_Code_2021.BinaryDiagonostic
     class BinaryDiagnostic : ISolution
     {
         public IEnumerable<object> Solve(string[] input)
+        {
             yield return SolvePartOne(input);
             yield return SolvePartTwo(input);
         }
